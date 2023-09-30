@@ -1,0 +1,76 @@
+/* Styling the Body element i.e. Color,
+		Font, Alignment */
+body {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    background-repeat: repeat-y;
+    background-size: contain;
+    
+}
+body{
+    background-image: url("./school.jpg"); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position:cover;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.from-control {
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+/* Styling form-control Label */
+.from-control label {
+    display: inline;
+    margin-left: 10px;
+}
+
+/* Styling form-control input,
+		 textarea */
+.from-control input,
+.from-control textarea {
+    border: 1px solid cadetblue;
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling form-control Radio
+		button  */
+.from-control input[type="radio"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+button {
+    background-color: aquamarine;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>School forms</title>
+    <link rel="stylesheet" href="school.css">
+
+</head>
+
+<body>
+    <h1>Admission Form</h1>
+    <!-- create form  -->
+    <form id="form">
+        <div class="from-control">
+            <label for="name" id="label-name">
+                Student Name
+            </label><br>
+            <!--input type text-->
+            <input type="text" id="student name" placeholder="enter Student name" required>
+        </div>
+        <br>
+        <div class="from-control">
+            <label for="fname" id="label-fname">
+                Father Name
+            </label><br>
+            <!--input type text-->
+            <input type="text" id="father name" placeholder="enter your father name" required>
+        </div>
+        <br>
+        <div class="from-control">
+            <label for="mother" id="label-mother">
+                Mother Name
+            </label><br>
+            <!--input text -->
+            <input type="text" id="mother" placeholder="enter your mother name" required>
+        </div><br>
+        <div class="from-control">
+            <label for="D.o.B" id="label-D.o.B">
+                Date of Birth
+            </label><br>
+            <!--input text as D.O.B-->
+            <input type="date" id="D.O.B" placeholder="enter your D.O.B" required>
+        </div><br>
+        <div class="from-control">
+            <label for="Gender" id="label-gender">Gender</label><br><br>
+            <input type="radio" name="gen" value="der">
+            <label for="Male">Male</label><br>
+            <input type="radio" name="gen" value="der">
+            <label for="Male">Female</label>
+
+        </div><br>
+        <div class="from-control">
+            <label for="blood">
+                Blood Gruop
+            </label><br>
+            <!--enter your blood-->
+            <input type="text" id="blood" placeholder="enter your blood Gruop">
+        </div>
+        <br>
+        <div class="from-control" >
+            <label for="Nationality" id="label-Nationality">
+                Nationality
+            </label><br><br>
+            <!--text as nationslity-->
+            <input type="radio" id="indian" name="fav_language" value="INdian">
+            <label for="Indian">Indian</label><br>
+            <input type="radio" id="other" name="fav_language" value="Other">
+            <label for="other">Other</label><br>
+
+
+
+        </div><br>
+
+        <div class="from-control">
+            <label for="Religion" id="label-Religion">
+                Religion
+            </label><br><br>
+            <!--text as nationslity-->
+            <input type="radio" id="muslim" name="omg" value="Muslim">
+            <label for="Indian">Muslim</label><br>
+            <input type="radio" id="Hindu" name="omg" value="hindu">
+            <label for="other">Hindu</label><br>
+            <input type="radio" id="sikh" name="omg" value="Sikh">
+            <label for="other">Sikh</label><br>
+            <input type="radio" id="Cristian" name="omg" value="CRistian">
+            <label for="other">Cristian</label><br>
+
+        </div><br>
+        <div class="from-control">
+            <label for="Address" id="label-address">Address:Village/City</label><br>
+            <!-- textarea is used for address -->
+            <textarea name="address" id="village-add" cols="30" rows="5" required></textarea>
+        </div><br>
+
+        <div class="from-control">
+            <label for="post_office" id="label-post_office">Post Office</label><br>
+            <!--input type post-office-->
+            <input type="text" id="post" placeholder="enter your Post Office" required>
+        </div><br>
+
+        <div class="from-control">
+            <label for="district" id="label-district">District</label><br>
+            <!--input type post-office-->
+            <input type="text" id="dst" placeholder="enter your District" required>
+        </div><br>
+
+        <div class="from-control">
+            <label for="state" id="label-state">State</label><br>
+            <!--input type post-office-->
+            <input type="text" id="State" placeholder="enter your State" required>
+        </div><br>
+
+        <div class="from-control">
+            <label for="pin_code" id="label-pin_code">pin code</label><br>
+            <!--input type post-office-->
+            <input type="number" id="pin" placeholder="enter your pincode" required>
+        </div><br>
+
+        <div class="from-control">
+            <label for="police station" id="label-police station">Police Station</label><br>
+            <!--input type post-office-->
+            <input type="text" id="police" placeholder="enter your Police station" required>
+        </div><br>
+        <div class="from-control">
+            <label for="cont" id="label-cont">Contact</label><br>
+            <input type="tel" id="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" maxlength="15" placeholder="1234-567-890" required>
+        </div><br>
+
+        <div class="from-control">
+            <label for="email" id="label-email">
+                Email
+            </label><br>
+            <!--input type email-->
+            <input type="text" id="Email" placeholder="khan@gmail.com" >
+        </div><br>
+
+        <div class="from-control">
+            <label for="aadhaar" id="label-aadhaar">Aadhaar Number</label><br>
+            <input type="tel" id="aadhaar" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" maxlength="14"
+                placeholder="1234-5679-8908">
+        </div><br>
+        <div class="from-control">
+            <label for="qualification-f" id="label-qualification father">
+                Qualification Father
+            </label><br>
+            <!--input type qualification father-->
+            <input type="text" id="quli-father" placeholder="enter your Father Qualification ">
+        </div><br>
+        <div class="from-control">
+            <label for="father" id="label-work father">
+                Father Occupation
+            </label><br>
+            <!--input type father work-->
+            <input type="text" id="father work" placeholder="enter your Father Work">
+        </div><br>
+
+        <div class="from-control">
+            <label for="qualification-m" id="label-qualification mother">
+                Qualification Mother
+            </label><br>
+            <!--input type qualification mother-->
+            <input type="text" id="quli-mother" placeholder="enter your Mother Qualification ">
+        </div><br>
+        <div class="from-control">
+            <label for="mother" id="label-mother work">
+                Mother Occupation
+            </label><br>
+            <!--input type father work-->
+            <input type="text" id="mother work" placeholder="enter your Mother  Work">
+        </div><br>
+
+        <div class="from-control">
+            <label for="local-gar" id="label-local">Name of the Local Guardian(if any)</label><br>
+            <input type="text" id="local-gua" placeholder="enter your Name of the Local Guardian(if any) ">
+        </div><br>
+
+        <div class="from-control">
+            <label for="realtion" id="label-relation">Realation With Student</label><br>
+            <input type="text" id="local-gua" placeholder="enter your Realation With Student ">
+        </div><br>
+
+
+        <div class="from-control">
+            <label for="rel" id="label-rel">Contact Number</label><br>
+            <input type="tel" id="rel_cont" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" maxlength="12"
+                placeholder="1234-567-890">
+        </div><br>
+        <div class="from-control">
+            <h2>DECLARATION BY THE PARENTS </h2>
+            <label for="1" id="label-1">I MR./MRS.</label><br>
+            <input type="text"><br><br>
+            <label for="2" id="label-">Father/Mother/Guardian of</label><br>
+            <input type="text"><br><br>
+            <label for="3">
+                <p>Confirm that the above information provide by me is correct
+                    and to best of my knowledge and belief. I am also ready to follow up all the rule,and regulations of
+                    the school.</p>
+                <br><br>
+                <input type="date">
+            </label><br><br>
+            Upload your Signature<br>
+            <input type="file" placeholder="enter your signature">
+
+            </label><br><br>
+            Upload Photo<br>
+            <input type="file" placeholder="Upload your photo">
+
+
+
+        </div><br><br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <br><br><br>
+        for more information ,
+        check out
+        <a id="main" href="#"></a>
+        <b>Admission</b> on public school [
+        <small>Developed by @<a href="#">
+                Aman khan.</a></a>
+        </small>]
+
+
+    </form>
+    
+</body>
+
+</html>
